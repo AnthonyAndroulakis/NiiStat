@@ -22,14 +22,20 @@ b) From the command line, type "git clone https://github.com/AnthonyAndroulakis/
 In the Octave Command Line,        
 __cd into the NiiStat folder (that you just downloaded)__
 __Download SPM12 r4787__       
-`unzip('https://github.com/spm/spm12/archive/r7487.zip',pwd);`      
+`unzip('https://github.com/spm/spm12/archive/r7487.zip',pwd);`   
+         
 __Patch SPM12__      
-`urlwrite('https://raw.githubusercontent.com/spm/spm-docker/master/octave/spm12_r7487.patch','spm12_r7487.patch');`      
+`urlwrite('https://raw.githubusercontent.com/spm/spm-docker/master/octave/spm12_r7487.patch','spm12_r7487.patch');`     
+         
 `system('patch -p3 -d spm12-r7487 < spm12_r7487.patch');`      
+         
 __Compile MEX files__      
 `cd spm12-r7487/src`      
+         
 `system('make PLATFORM=octave');`      
+         
 `system('make PLATFORM=octave install');`      
+         
 __Go back 2 levels to access NiiStat__         
 `cd ../../`
            
