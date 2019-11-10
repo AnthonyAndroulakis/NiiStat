@@ -20,7 +20,7 @@ b) From the command line, type "git clone https://github.com/AnthonyAndroulakis/
 
 4) Download SPM and Compile it     
 In the Octave Command Line,
-__cd into your NiiStat folder (that you just downloaded)__
+__cd into the NiiStat folder (that you just downloaded)__
 __Download SPM12 r4787__       
 `unzip('https://github.com/spm/spm12/archive/r7487.zip',pwd);`      
 __Patch SPM12__      
@@ -30,4 +30,8 @@ __Compile MEX files__
 `cd spm12-r7487/src`      
 `system('make PLATFORM=octave');`      
 `system('make PLATFORM=octave install');`      
+__Go back 2 levels to access NiiStat__
+`cd ../../`
 
+5) Run NiiStat
+`NiiStat`
