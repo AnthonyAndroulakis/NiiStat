@@ -30,7 +30,7 @@ __Compile MEX files__
 `cd spm12-r7487/src`      
 `system('make PLATFORM=octave');`      
 `system('make PLATFORM=octave install');`      
-__Go back 2 levels to access NiiStat__
+__Go back 2 levels to access NiiStat__         
 `cd ../../`
            
 5) Run NiiStat
