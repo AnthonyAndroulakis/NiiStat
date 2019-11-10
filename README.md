@@ -1,5 +1,5 @@
 # NiiStat     
-NiiStat for Octave     
+A version of NiiStat which runs entirely in Octave, a free version of MATLAB.    
      
 ## Installation     
 1) Download Octave 4.4.1 and install it     
