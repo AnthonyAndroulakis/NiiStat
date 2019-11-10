@@ -85,3 +85,5 @@ __Go back 2 levels to access NiiStat__
 
  - [NiiStat Wiki](https://www.nitrc.org/plugins/mwiki/index.php/niistat:MainPage)
  - [NiiStat Tutorial](https://www.nitrc.org/plugins/mwiki/index.php/niistat:TutorialPage)
+ 
+ ###### This version was last edited by Anthony Androulakis on November 10, 2019,
