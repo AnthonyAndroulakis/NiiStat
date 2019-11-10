@@ -13,14 +13,14 @@ In the Octave Command Window, run the following command:
 + `pkg install -forge io`       
           
 3) Download NiiStat     
-Pick __one__ of the following methods:
+Pick __one__ of the following methods:       
 a) Press the green "Clone or Download" button on the [GitHub](https://github.com/AnthonyAndroulakis/NiiStat) page. Extract the downloaded zip file. Renamed the extracted folder (NiiStat-master) to NiiStat. This is the easiest method to install the software.     
-__OR__
+__OR__       
 b) From the command line, type `git clone https://github.com/AnthonyAndroulakis/NiiStat`. This requires you to have the git software installed. The advantage of this method is that the software will be kept up-to-date automatically.      
          
 4) Download SPM and Compile it     
 In the Octave Command Line,        
-__cd into the NiiStat folder (that you just downloaded)__
+__cd into the NiiStat folder (that you just downloaded)__      
 __Download SPM12 r4787__       
 + `unzip('https://github.com/spm/spm12/archive/r7487.zip',pwd);`         
 __Patch SPM12__      
